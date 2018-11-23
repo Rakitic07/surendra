@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Rakitic07/surendra/issues"
   },
+  "dependencies": {
+    "path": "*",
+    "express": "*"
+},
   "homepage": "https://github.com/Rakitic07/surendra#readme"
 }
